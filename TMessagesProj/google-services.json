@@ -9,7 +9,8 @@
       "client_info": {
         "mobilesdk_app_id": "1:123456789000:android:abcdef123456",
         "android_client_info": {
-          "package_name": "org.vexrgramm.messenger"
+          "package_name": "org.telegram.messenger"
+
         }
       },
       "oauth_client": [],
