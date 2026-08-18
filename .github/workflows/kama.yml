@@ -17,8 +17,11 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
 
-    - name: Build APK
-      run: ./gradlew assembleRelease --stacktrace
+          - name: Build APK
+        env:
+          GRADLE_OPTS: "-Dorg.gradle.jvmargs=-Xmx2048m -Dfile.encoding=UTF-8"
+        run: ./gradlew assembleDebug -PABI=arm64-v8a --no-daemon --no-parallel
+
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
