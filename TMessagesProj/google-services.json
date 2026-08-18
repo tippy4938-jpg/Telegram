@@ -7,10 +7,12 @@
   },
   "client": [
     {
-      "client_info": {
-        "mobilesdk_app_id": "1:760348033671:android:f6afd7b67eae3860",
-        "android_client_info": {
-          "package_name": "org.vexrgramm.messenger"
+     "client_info": {
+  "mobilesdk_app_id": "1:123456789:android:abcdef",
+  "android_client_info": {
+    "package_name": "org.vexrgramm.messenger.beta"
+  }
+}
         
       },
       "oauth_client": [
