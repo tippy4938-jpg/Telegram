@@ -261,3 +261,4 @@ task checkVisibility {
 }
 
 preBuild.dependsOn checkVisibility
+apply plugin: 'com.google.gms.google-services'
